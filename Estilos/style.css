@@ -32,3 +32,44 @@ body {
     float: left;
 
 }
+  .card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #000000;
+    font-family: "PT Serif", serif;
+}
+ 
+.tarjetas{
+    display: flex;
+    justify-content: center;
+}
+.card:hover{
+  background-color: #a5e0d9;
+  transform: scale(1.05);
+}
+p{
+  padding-left: 20px;
+}
+ 
+h1{
+  padding-left: 5px;
+}
+ 
+h2{
+  padding-left: 20px;
+  font-size: 17px;
+}
+.tarjetas{
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+.card img{
+  width: 100px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
